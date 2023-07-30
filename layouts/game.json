@@ -1,28 +1,25 @@
 {
-  "b": 209,
+  "b": 78,
   "disableInputWhenNotFocused": true,
   "mangledName": "Game",
   "name": "Game",
-  "oglFOV": 90,
-  "oglZFar": 500,
-  "oglZNear": 1,
-  "r": 209,
+  "r": 88,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 78,
   "uiSettings": {
     "grid": false,
-    "gridB": 255,
-    "gridG": 180,
+    "gridType": "rectangular",
+    "gridWidth": 32,
     "gridHeight": 32,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
-    "gridR": 158,
-    "gridWidth": 32,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
     "snap": false,
-    "windowMask": false,
-    "zoomFactor": 0.664
+    "zoomFactor": 0.753647328191772,
+    "windowMask": false
   },
   "objectsGroups": [
     {
@@ -93,7 +90,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "bg_0",
       "persistentUuid": "f3cab5b2-ad0c-4948-8443-a8095de98152",
       "width": 0,
@@ -106,26 +102,9 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "locked": false,
-      "name": "player",
-      "persistentUuid": "c6cb58b9-8dca-4f61-8928-45f9da80c21d",
-      "width": 0,
-      "x": 258,
-      "y": 700,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "height": 832,
       "layer": "",
-      "locked": false,
       "name": "solido",
       "persistentUuid": "a5ef1078-9f06-43b0-a428-0c18b3f6888a",
       "width": 32,
@@ -141,7 +120,6 @@
       "customSize": true,
       "height": 832,
       "layer": "",
-      "locked": false,
       "name": "solido",
       "persistentUuid": "49eb3a82-66d1-4d79-99e9-231fbf93852d",
       "width": 32,
@@ -157,7 +135,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "bg_HUD",
       "persistentUuid": "0c2296fa-bb94-42cd-8402-1f1629790f85",
       "width": 0,
@@ -173,7 +150,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "light",
       "persistentUuid": "80bcc96e-6901-406a-8e71-a16c5c040c2e",
       "width": 0,
@@ -189,7 +165,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "Score",
       "persistentUuid": "4fc4950a-876f-4f22-8aea-b48a74896eb1",
       "width": 0,
@@ -205,8 +180,7 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
-      "name": "colorBubble",
+      "name": "testBubble",
       "persistentUuid": "4217e193-eeb0-4be0-9cf1-a1550e44e02a",
       "width": 0,
       "x": 624,
@@ -221,7 +195,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "iconoRed",
       "persistentUuid": "dc629514-3de8-4773-a8a1-973dc5c408a2",
       "width": 0,
@@ -237,7 +210,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "iconoBlue",
       "persistentUuid": "b837d4ea-4b7d-4b9a-bed9-f8e720f982f3",
       "width": 0,
@@ -253,7 +225,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "iconoYellow",
       "persistentUuid": "b1eed08c-6d8b-4f0f-92d1-c7cab059afc5",
       "width": 0,
@@ -269,7 +240,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "iconoBlack",
       "persistentUuid": "d2e104b7-0e8e-4788-91fa-9efba0670f68",
       "width": 0,
@@ -285,7 +255,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "iconoWhite",
       "persistentUuid": "5069f4e8-1642-419f-a80e-b95e5b8b234a",
       "width": 0,
@@ -301,7 +270,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "textIconoBlue",
       "persistentUuid": "f136b8c8-98d9-4865-834f-e564ea4348dd",
       "width": 0,
@@ -317,7 +285,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "textIconoRed",
       "persistentUuid": "4cd68d2a-f3d2-4180-b45b-8451775eb62e",
       "width": 0,
@@ -333,7 +300,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "textIconoYellow",
       "persistentUuid": "af98b180-1d4b-4efa-b602-f053e6887c35",
       "width": 0,
@@ -349,7 +315,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "textIconoBlack",
       "persistentUuid": "53a9c880-e22b-4a83-8e0c-759cef628423",
       "width": 0,
@@ -365,7 +330,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "textIconoWhite",
       "persistentUuid": "d206bd3a-fd5e-4173-a01b-945350f7268d",
       "width": 0,
@@ -381,7 +345,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "ScoreBlue",
       "persistentUuid": "8db59c19-2edc-4d71-9a72-abf1b71cd1db",
       "width": 0,
@@ -397,7 +360,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "ScoreRed",
       "persistentUuid": "b20c0878-e2f9-4db8-910f-769212b3a0d9",
       "width": 0,
@@ -413,7 +375,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "ScoreYellow",
       "persistentUuid": "211df9ab-3df3-4d4c-9208-87cae97083df",
       "width": 0,
@@ -429,7 +390,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "ScoreBlack",
       "persistentUuid": "c8aaf154-a2bb-42df-bfb1-a21a9bdf0f95",
       "width": 0,
@@ -445,7 +405,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "ScoreWhite",
       "persistentUuid": "7a4e55ca-1b2c-4b50-9f35-f6321873be72",
       "width": 0,
@@ -461,7 +420,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "textIconoWhite",
       "persistentUuid": "12d5ade8-f32e-44b7-9f50-2a343e3ef900",
       "width": 0,
@@ -477,7 +435,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "textIconoWhite",
       "persistentUuid": "3072b41a-e8bd-4926-8c2a-08c55f63189f",
       "width": 0,
@@ -493,7 +450,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "Level",
       "persistentUuid": "a7f7f24d-b477-4cca-b342-a259b23d3eb7",
       "width": 0,
@@ -509,7 +465,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "locked": false,
       "name": "Life",
       "persistentUuid": "a5b00b60-e904-4e4a-a2d0-2ad55bb7957d",
       "width": 0,
@@ -519,15 +474,32 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 14,
+      "layer": "",
+      "name": "HeartBar",
+      "persistentUuid": "19d8f556-3d7a-4072-8184-4ddc6a09b072",
+      "width": 50,
+      "x": 659,
+      "y": 636,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
     {
+      "assetStoreId": "",
       "name": "bg_0",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -562,11 +534,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "player",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -635,6 +609,7 @@
       ]
     },
     {
+      "assetStoreId": "",
       "height": 32,
       "name": "solido",
       "tags": "",
@@ -642,14 +617,17 @@
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
+      "effects": [],
       "behaviors": []
     },
     {
+      "assetStoreId": "",
       "name": "bg_HUD",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -684,11 +662,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "bullet",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [
         {
           "name": "Destruir Fuera",
@@ -746,20 +726,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 5.37598,
+                        "x": 5.375979900360107,
                         "y": 3.59375
                       },
                       {
-                        "x": 26.3135,
+                        "x": 26.313499450683594,
                         "y": 3.28125
                       },
                       {
-                        "x": 26.626,
-                        "y": 27.0312
+                        "x": 26.625999450683594,
+                        "y": 27.031200408935547
                       },
                       {
-                        "x": 6.00098,
-                        "y": 27.0312
+                        "x": 6.000979900360107,
+                        "y": 27.031200408935547
                       }
                     ]
                   ]
@@ -772,23 +752,15 @@
     },
     {
       "additive": false,
-      "alphaParam": "Mutable",
-      "angleParam": "Mutable",
-      "blueParam": "Random",
+      "assetStoreId": "",
       "destroyWhenNoParticles": true,
-      "emissionEditionSimpleMode": true,
       "emitterAngleA": 0,
       "emitterAngleB": 180,
       "emitterForceMax": 85,
       "emitterForceMin": 45,
-      "emitterXDirection": 0,
-      "emitterYDirection": 1,
-      "emitterZDirection": 0,
-      "flow": 45,
-      "friction": 2,
-      "gravityEditionSimpleMode": true,
-      "greenParam": "Random",
-      "maxParticleNb": 300,
+      "flow": 20,
+      "jumpForwardInTimeOnCreation": 0,
+      "maxParticleNb": 20,
       "name": "particulas",
       "particleAlpha1": 204,
       "particleAlpha2": 0,
@@ -798,33 +770,30 @@
       "particleAngle2": 0,
       "particleAngleRandomness1": 0,
       "particleAngleRandomness2": 0,
-      "particleBlue1": 51,
-      "particleBlue2": 0,
-      "particleEditionSimpleMode": true,
+      "particleBlue1": 71,
+      "particleBlue2": 170,
       "particleGravityX": 0,
       "particleGravityY": 0,
-      "particleGravityZ": 0,
-      "particleGreen1": 51,
-      "particleGreen2": 255,
+      "particleGreen1": 155,
+      "particleGreen2": 240,
       "particleLifeTimeMax": 2.5,
       "particleLifeTimeMin": 0.5,
-      "particleRed1": 255,
-      "particleRed2": 255,
+      "particleRed1": 137,
+      "particleRed2": 240,
       "particleSize1": 100,
       "particleSize2": 100,
       "particleSizeRandomness1": 0,
       "particleSizeRandomness2": 0,
-      "redParam": "Enabled",
       "rendererParam1": 6,
       "rendererParam2": 1,
       "rendererType": "Point",
-      "sizeParam": "Mutable",
       "tags": "",
       "tank": -1,
       "textureParticleName": "",
       "type": "ParticleSystem::ParticleEmitter",
       "zoneRadius": 10,
       "variables": [],
+      "effects": [],
       "behaviors": [
         {
           "name": "Destruir Fuera",
@@ -834,11 +803,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "bubbleBlue",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [
         {
           "name": "Destruir Fuera",
@@ -879,11 +850,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "bubbleRed",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [
         {
           "name": "Destruir Fuera",
@@ -924,11 +897,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "bubbleYellow",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [
         {
           "name": "Destruir Fuera",
@@ -969,11 +944,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "bubbleBlack",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [
         {
           "name": "Destruir Fuera",
@@ -1014,11 +991,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "bubbleWhite",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [
         {
           "name": "Destruir Fuera",
@@ -1059,11 +1038,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "bubble",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [
         {
           "name": "Destruir Fuera",
@@ -1104,11 +1085,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "splashBlue",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -1143,11 +1126,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "splashRed",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -1182,11 +1167,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "splashYellow",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -1221,11 +1208,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "splashBlack",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -1260,11 +1249,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "splashWhite",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -1299,11 +1290,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "splash",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -1338,6 +1331,7 @@
       ]
     },
     {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "Life",
@@ -1346,9 +1340,11 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "string": "Life",
       "font": "",
+      "textAlignment": "",
       "characterSize": 30,
       "color": {
         "b": 0,
@@ -1357,6 +1353,7 @@
       }
     },
     {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "Level",
@@ -1365,9 +1362,11 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
-      "string": "Level 0",
+      "string": "Level",
       "font": "",
+      "textAlignment": "",
       "characterSize": 30,
       "color": {
         "b": 0,
@@ -1376,6 +1375,7 @@
       }
     },
     {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "Score",
@@ -1384,9 +1384,11 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "string": "Score 0",
       "font": "",
+      "textAlignment": "",
       "characterSize": 30,
       "color": {
         "b": 0,
@@ -1395,17 +1397,20 @@
       }
     },
     {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "colorBubble",
+      "name": "testBubble",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
-      "string": "Color bubble:",
+      "string": "Test bubble:",
       "font": "",
+      "textAlignment": "",
       "characterSize": 20,
       "color": {
         "b": 0,
@@ -1414,11 +1419,13 @@
       }
     },
     {
+      "assetStoreId": "",
       "name": "iconoBlue",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -1453,11 +1460,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "iconoRed",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -1492,11 +1501,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "iconoYellow",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -1531,11 +1542,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "iconoBlack",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -1570,11 +1583,13 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "iconoWhite",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -1609,10 +1624,12 @@
       ]
     },
     {
+      "assetStoreId": "",
       "name": "textIconoBlue",
       "tags": "",
       "type": "BBText::BBText",
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "content": {
         "text": "[outline=blue]Blue[/outline]",
@@ -1626,6 +1643,7 @@
       }
     },
     {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "ScoreBlue",
@@ -1634,9 +1652,11 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "string": "= 0",
       "font": "",
+      "textAlignment": "",
       "characterSize": 20,
       "color": {
         "b": 255,
@@ -1645,10 +1665,12 @@
       }
     },
     {
+      "assetStoreId": "",
       "name": "textIconoRed",
       "tags": "",
       "type": "BBText::BBText",
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "content": {
         "text": "[outline=red]Red[/outline]",
@@ -1662,6 +1684,7 @@
       }
     },
     {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "ScoreRed",
@@ -1670,9 +1693,11 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "string": "= 0",
       "font": "",
+      "textAlignment": "",
       "characterSize": 20,
       "color": {
         "b": 255,
@@ -1681,10 +1706,12 @@
       }
     },
     {
+      "assetStoreId": "",
       "name": "textIconoYellow",
       "tags": "",
       "type": "BBText::BBText",
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "content": {
         "text": "[outline=yellow]Yellow[/outline]",
@@ -1698,6 +1725,7 @@
       }
     },
     {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "ScoreYellow",
@@ -1706,9 +1734,11 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "string": "= 0",
       "font": "",
+      "textAlignment": "",
       "characterSize": 20,
       "color": {
         "b": 255,
@@ -1717,10 +1747,12 @@
       }
     },
     {
+      "assetStoreId": "",
       "name": "textIconoBlack",
       "tags": "",
       "type": "BBText::BBText",
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "content": {
         "text": "[outline=black]Black[/outline]",
@@ -1734,6 +1766,7 @@
       }
     },
     {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "ScoreBlack",
@@ -1742,9 +1775,11 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "string": "= 0",
       "font": "",
+      "textAlignment": "",
       "characterSize": 20,
       "color": {
         "b": 255,
@@ -1753,10 +1788,12 @@
       }
     },
     {
+      "assetStoreId": "",
       "name": "textIconoWhite",
       "tags": "",
       "type": "BBText::BBText",
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "content": {
         "text": "[outline=white]White[/outline]",
@@ -1770,6 +1807,7 @@
       }
     },
     {
+      "assetStoreId": "",
       "bold": true,
       "italic": false,
       "name": "ScoreWhite",
@@ -1778,84 +1816,171 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
+      "effects": [],
       "behaviors": [],
       "string": "= 0",
       "font": "",
+      "textAlignment": "",
       "characterSize": 20,
       "color": {
         "b": 255,
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "assetStoreId": "db57d0bcdc074868304ca46431ac85fcef3f613be5fba73ae0adc26ee2c8629b",
+      "name": "HeartBar",
+      "tags": "",
+      "type": "TiledUnitsBar::TiledUnitsBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "UnitWidth": 16,
+        "HideBackground": true,
+        "ShowBackground": false,
+        "MaxValue": 3
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 0,
+          "height": 16,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "tiled_Tiled Empty UI Heart.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 48
+        },
+        "Bar": {
+          "height": 16,
+          "texture": "tiled_Tiled Empty UI Heart.png",
+          "width": 48
+        },
+        "FillBar": {
+          "height": 16,
+          "texture": "tiled_Tiled Filler UI Heart.png",
+          "width": 16
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "obj_gameOver",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\spr_gameOver_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
     {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "inverted": false,
             "value": "DepartScene"
           },
           "parameters": [
             ""
-          ],
-          "subInstructions": []
+          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "inverted": false,
             "value": "ModVarGlobal"
           },
           "parameters": [
             "colorBubble",
             "=",
             "Random(4)"
-          ],
-          "subInstructions": []
+          ]
         },
         {
           "type": {
-            "inverted": false,
             "value": "CenterWindow"
           },
           "parameters": [
             ""
-          ],
-          "subInstructions": []
+          ]
         },
         {
           "type": {
-            "inverted": false,
             "value": "AdvancedWindow::Maximize"
           },
           "parameters": [
             "yes"
-          ],
-          "subInstructions": []
+          ]
         },
         {
           "type": {
-            "inverted": false,
             "value": "SetWindowTitle"
           },
           "parameters": [
             "yes",
             "\"Splash Color by Wichi\""
-          ],
-          "subInstructions": []
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "GameState",
+            "=",
+            "\"game\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\Buble.ogg",
+            "yes",
+            "50",
+            "1"
+          ]
         }
-      ],
-      "events": []
+      ]
     },
     {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -1865,75 +1990,58 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "TEST",
-      "comment2": ""
+      "comment": "TEST"
     },
     {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "inverted": false,
             "value": "Toujours"
           },
           "parameters": [
             ""
-          ],
-          "subInstructions": []
+          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "inverted": false,
             "value": "TextObject::String"
           },
           "parameters": [
-            "colorBubble",
+            "testBubble",
             "=",
             "\"Test Bubble: \"+GlobalVariableString(colorBubble)"
-          ],
-          "subInstructions": []
+          ]
         }
-      ],
-      "events": []
+      ]
     },
     {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "inverted": false,
             "value": "KeyPressed"
           },
           "parameters": [
             "",
             "Escape"
-          ],
-          "subInstructions": []
+          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "inverted": false,
             "value": "Quit"
           },
           "parameters": [
             ""
-          ],
-          "subInstructions": []
+          ]
         }
-      ],
-      "events": []
+      ]
     },
     {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -1943,67 +2051,94 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Se ejecuta constantemente",
-      "comment2": ""
+      "comment": "Se ejecuta constantemente"
     },
     {
-      "disabled": false,
-      "folded": false,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "inverted": false,
             "value": "Toujours"
           },
           "parameters": [
             ""
-          ],
-          "subInstructions": []
+          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "inverted": false,
             "value": "ChangePlan"
           },
           "parameters": [
             "Bubbles",
             "=",
             "player.ZOrder()"
-          ],
-          "subInstructions": []
+          ]
         },
         {
           "type": {
-            "inverted": false,
             "value": "ChangePlan"
           },
           "parameters": [
             "Splash",
             "=",
             "Bubbles.ZOrder()"
-          ],
-          "subInstructions": []
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "SCORE",
+            "=",
+            "GlobalVariable(scoreBlue) + GlobalVariable(scoreRed) + GlobalVariable(scoreYellow) + GlobalVariable(scoreBlack) + GlobalVariable(scoreWhite)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Level",
+            "=",
+            "\"Level \" + GlobalVariableString(Level)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Life",
+            "=",
+            "\"Life \" + GlobalVariableString(LIFE_HEART)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Score",
+            "=",
+            "\"Score \" + GlobalVariableString(SCORE)"
+          ]
         }
-      ],
-      "events": []
+      ]
     },
     {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "disabled": false,
-      "folded": false,
-      "name": "PLAYER",
+      "folded": true,
+      "name": "PLAYER//No usado para este juego",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -2013,38 +2148,30 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Disparo con la tecla a",
-          "comment2": ""
+          "comment": "Disparo con la tecla a"
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "KeyPressed"
               },
               "parameters": [
                 "player",
                 "a"
-              ],
-              "subInstructions": []
+              ]
             },
             {
               "type": {
-                "inverted": false,
                 "value": "BuiltinCommonInstructions::Once"
               },
-              "parameters": [],
-              "subInstructions": []
+              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Create"
               },
               "parameters": [
@@ -2053,24 +2180,20 @@
                 "player.X()",
                 "player.Y()-30",
                 ""
-              ],
-              "subInstructions": []
+              ]
             },
             {
               "type": {
-                "inverted": false,
                 "value": "ChangePlan"
               },
               "parameters": [
                 "bullet",
                 "=",
                 "player.ZOrder()"
-              ],
-              "subInstructions": []
+              ]
             },
             {
               "type": {
-                "inverted": false,
                 "value": "Physics2::LinearVelocityY"
               },
               "parameters": [
@@ -2078,15 +2201,11 @@
                 "Physics2",
                 "=",
                 "-600\n\n"
-              ],
-              "subInstructions": []
+              ]
             }
-          ],
-          "events": []
+          ]
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -2096,42 +2215,34 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Direciones y limites",
-          "comment2": ""
+          "comment": "Direciones y limites"
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "KeyPressed"
               },
               "parameters": [
                 "",
                 "Left"
-              ],
-              "subInstructions": []
+              ]
             },
             {
               "type": {
-                "inverted": false,
                 "value": "PosX"
               },
               "parameters": [
                 "player",
                 ">",
                 "70"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "AddForceXY"
               },
               "parameters": [
@@ -2139,57 +2250,46 @@
                 "-150",
                 "",
                 ""
-              ],
-              "subInstructions": []
+              ]
             },
             {
               "type": {
-                "inverted": false,
                 "value": "ChangeDirection"
               },
               "parameters": [
                 "player",
                 "+",
                 "-5"
-              ],
-              "subInstructions": []
+              ]
             }
-          ],
-          "events": []
+          ]
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "KeyPressed"
               },
               "parameters": [
                 "",
                 "Right"
-              ],
-              "subInstructions": []
+              ]
             },
             {
               "type": {
-                "inverted": false,
                 "value": "PosX"
               },
               "parameters": [
                 "player",
                 "<",
                 "540"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "AddForceXY"
               },
               "parameters": [
@@ -2197,23 +2297,19 @@
                 "150",
                 "",
                 ""
-              ],
-              "subInstructions": []
+              ]
             },
             {
               "type": {
-                "inverted": false,
                 "value": "ChangeDirection"
               },
               "parameters": [
                 "player",
                 "+",
                 "5"
-              ],
-              "subInstructions": []
+              ]
             }
-          ],
-          "events": []
+          ]
         }
       ],
       "parameters": []
@@ -2223,15 +2319,11 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "disabled": false,
-      "folded": false,
       "name": "BUBBLE",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -2241,31 +2333,25 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Crea particulas",
-          "comment2": ""
+          "comment": "Crea particulas"
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Timer"
               },
               "parameters": [
                 "splash",
                 "2",
                 "\"createBubble\""
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Create"
               },
               "parameters": [
@@ -2274,55 +2360,44 @@
                 "RandomInRange(30,SceneWindowWidth()-280)",
                 "RandomInRange(0, 10)",
                 ""
-              ],
-              "subInstructions": []
+              ]
             },
             {
               "type": {
-                "inverted": false,
                 "value": "ResetTimer"
               },
               "parameters": [
                 "splash",
                 "\"createBubble\""
-              ],
-              "subInstructions": []
+              ]
             },
             {
               "type": {
-                "inverted": false,
                 "value": "ChangePlan"
               },
               "parameters": [
                 "particulas",
                 "=",
                 "player.ZOrder()"
-              ],
-              "subInstructions": []
+              ]
             }
-          ],
-          "events": []
+          ]
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Arret"
               },
               "parameters": [
                 "particulas"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "AddForceXY"
               },
               "parameters": [
@@ -2330,15 +2405,11 @@
                 "",
                 "80",
                 ""
-              ],
-              "subInstructions": []
+              ]
             }
-          ],
-          "events": []
+          ]
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -2348,75 +2419,61 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Crear burbujas",
-          "comment2": ""
+          "comment": "Crear burbujas"
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Timer"
               },
               "parameters": [
                 "splash",
                 "1",
                 "\"createBubble2\""
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "ModVarGlobal"
               },
               "parameters": [
                 "colorBubble",
                 "=",
                 "Random(4)"
-              ],
-              "subInstructions": []
+              ]
             },
             {
               "type": {
-                "inverted": false,
                 "value": "ResetTimer"
               },
               "parameters": [
                 "splash",
                 "\"createBubble2\""
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "events": [
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "VarGlobal"
                   },
                   "parameters": [
                     "colorBubble",
                     "=",
                     "0"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -2425,34 +2482,27 @@
                     "RandomInRange(30,SceneWindowWidth()-280)",
                     "RandomInRange(-60, 0)",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "VarGlobal"
                   },
                   "parameters": [
                     "colorBubble",
                     "=",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -2461,34 +2511,27 @@
                     "RandomInRange(30,SceneWindowWidth()-280)",
                     "RandomInRange(-60, 0)",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "VarGlobal"
                   },
                   "parameters": [
                     "colorBubble",
                     "=",
                     "2"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -2497,34 +2540,27 @@
                     "RandomInRange(30,SceneWindowWidth()-280)",
                     "RandomInRange(-60, 0)",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "VarGlobal"
                   },
                   "parameters": [
                     "colorBubble",
                     "=",
                     "3"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -2533,34 +2569,27 @@
                     "RandomInRange(30,SceneWindowWidth()-280)",
                     "RandomInRange(-60, 0)",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "VarGlobal"
                   },
                   "parameters": [
                     "colorBubble",
                     "=",
                     "4"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -2569,50 +2598,39 @@
                     "RandomInRange(30,SceneWindowWidth()-280)",
                     "RandomInRange(-60, 0)",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ]
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Arret"
               },
               "parameters": [
                 "Bubbles"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "AddForceXY"
               },
               "parameters": [
                 "Bubbles",
                 "",
-                "80",
+                "180",
                 ""
-              ],
-              "subInstructions": []
+              ]
             }
-          ],
-          "events": []
+          ]
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -2622,17 +2640,206 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Destruye burbuja al colisionar con la bala y crea un splash",
-          "comment2": ""
+          "comment": "Destruye burbujas en el limite inferior de la pantalla/Resta una vida"
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
+                "value": "PosY"
+              },
+              "parameters": [
+                "bubbleBlue",
+                ">",
+                "SceneWindowHeight()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bubbleBlue",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LIFE_HEART",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "bubbleRed",
+                ">",
+                "SceneWindowHeight()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bubbleRed",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LIFE_HEART",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "bubbleYellow",
+                ">",
+                "SceneWindowHeight()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bubbleYellow",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LIFE_HEART",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "bubbleBlack",
+                ">",
+                "SceneWindowHeight()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bubbleBlack",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LIFE_HEART",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "bubbleWhite",
+                ">",
+                "SceneWindowHeight()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "bubbleWhite",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "LIFE_HEART",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Destruye burbuja al colisionar con la bala y crea un splash"
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -2641,56 +2848,26 @@
                 "",
                 "",
                 ""
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Delete"
               },
               "parameters": [
                 "bullet",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "SCORE",
-                "+",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Score",
-                "=",
-                "\"Score \" + GlobalVariableString(SCORE)"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "events": [
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -2699,14 +2876,12 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -2715,55 +2890,44 @@
                     "bubbleBlue.X()",
                     "bubbleBlue.Y()",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
                     "bubbleBlue",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
                     "scoreBlue",
                     "+",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TextObject::String"
                   },
                   "parameters": [
                     "ScoreBlue",
                     "=",
                     "\"= \" + GlobalVariableString(scoreBlue)"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -2772,14 +2936,12 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -2788,55 +2950,44 @@
                     "bubbleRed.X()",
                     "bubbleRed.Y()",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
                     "bubbleRed",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
                     "scoreRed",
                     "+",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TextObject::String"
                   },
                   "parameters": [
                     "ScoreRed",
                     "=",
                     "\"= \" + GlobalVariableString(scoreRed)"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -2845,14 +2996,12 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -2861,55 +3010,44 @@
                     "bubbleYellow.X()",
                     "bubbleYellow.Y()",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
                     "bubbleYellow",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
                     "scoreYellow",
                     "+",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TextObject::String"
                   },
                   "parameters": [
                     "ScoreYellow",
                     "=",
                     "\"= \" + GlobalVariableString(scoreYellow)"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -2918,14 +3056,12 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -2934,55 +3070,44 @@
                     "bubbleBlack.X()",
                     "bubbleBlack.Y()",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
                     "bubbleBlack",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
                     "scoreBlack",
                     "+",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TextObject::String"
                   },
                   "parameters": [
                     "ScoreBlack",
                     "=",
                     "\"= \" + GlobalVariableString(scoreBlack)"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -2991,14 +3116,12 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -3007,52 +3130,42 @@
                     "bubbleWhite.X()",
                     "bubbleWhite.Y()",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
                     "bubbleWhite",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
                     "scoreWhite",
                     "+",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TextObject::String"
                   },
                   "parameters": [
                     "ScoreWhite",
                     "=",
                     "\"= \" + GlobalVariableString(scoreWhite)"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ]
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -3062,336 +3175,270 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Splash--- Reduce opacidad y destruye splash",
-          "comment2": ""
+          "comment": "Splash--- Reduce opacidad y destruye splash"
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Arret"
               },
               "parameters": [
                 "splashBlue"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Opacity"
               },
               "parameters": [
                 "splashBlue",
                 "-",
                 "5"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "events": [
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Opacity"
                   },
                   "parameters": [
                     "splashBlue",
                     "<=",
                     "0"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
                     "splashBlue",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ]
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Visible"
               },
               "parameters": [
                 "splashRed"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Opacity"
               },
               "parameters": [
                 "splashRed",
                 "-",
                 "5"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "events": [
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Opacity"
                   },
                   "parameters": [
                     "splashRed",
                     "<=",
                     "0"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
                     "splashRed",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ]
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Visible"
               },
               "parameters": [
                 "splashYellow"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Opacity"
               },
               "parameters": [
                 "splashYellow",
                 "-",
                 "5"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "events": [
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Opacity"
                   },
                   "parameters": [
                     "splashYellow",
                     "<=",
                     "0"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
                     "splashYellow",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ]
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Visible"
               },
               "parameters": [
                 "splashBlack"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Opacity"
               },
               "parameters": [
                 "splashBlack",
                 "-",
                 "5"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "events": [
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Opacity"
                   },
                   "parameters": [
                     "splashBlack",
                     "<=",
                     "0"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
                     "splashBlack",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ]
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Visible"
               },
               "parameters": [
                 "splashWhite"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Opacity"
               },
               "parameters": [
                 "splashWhite",
                 "-",
                 "5"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "events": [
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Opacity"
                   },
                   "parameters": [
                     "splashWhite",
                     "<=",
                     "0"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Delete"
                   },
                   "parameters": [
                     "splashWhite",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ]
         }
@@ -3403,15 +3450,11 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "disabled": false,
-      "folded": false,
       "name": "Desarrollo",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -3421,28 +3464,22 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Usado para mouse",
-          "comment2": ""
+          "comment": "Usado para mouse"
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "SourisBouton"
               },
               "parameters": [
                 "",
                 "Left"
-              ],
-              "subInstructions": []
+              ]
             },
             {
               "type": {
-                "inverted": false,
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -3450,56 +3487,38 @@
                 "",
                 "",
                 ""
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "Delete"
               },
               "parameters": [
                 "Bubbles",
                 ""
-              ],
-              "subInstructions": []
+              ]
             },
             {
               "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
+                "value": "PlaySound"
               },
               "parameters": [
-                "SCORE",
-                "+",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Score",
-                "=",
-                "\"Score \" + GlobalVariableString(SCORE)"
-              ],
-              "subInstructions": []
+                "",
+                "assets\\splash.ogg",
+                "",
+                "80",
+                "20"
+              ]
             }
           ],
           "events": [
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
@@ -3507,14 +3526,12 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -3523,44 +3540,35 @@
                     "bubbleBlue.X()",
                     "bubbleBlue.Y()",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
                     "scoreBlue",
                     "+",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TextObject::String"
                   },
                   "parameters": [
                     "ScoreBlue",
                     "=",
                     "\"= \" + GlobalVariableString(scoreBlue)"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
@@ -3568,14 +3576,12 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -3584,44 +3590,35 @@
                     "bubbleRed.X()",
                     "bubbleRed.Y()",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
                     "scoreRed",
                     "+",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TextObject::String"
                   },
                   "parameters": [
                     "ScoreRed",
                     "=",
                     "\"= \" + GlobalVariableString(scoreRed)"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
@@ -3629,14 +3626,12 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -3645,44 +3640,35 @@
                     "bubbleYellow.X()",
                     "bubbleYellow.Y()",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
                     "scoreYellow",
                     "+",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TextObject::String"
                   },
                   "parameters": [
                     "ScoreYellow",
                     "=",
                     "\"= \" + GlobalVariableString(scoreYellow)"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
@@ -3690,14 +3676,12 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -3706,44 +3690,35 @@
                     "bubbleBlack.X()",
                     "bubbleBlack.Y()",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
                     "scoreBlack",
                     "+",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TextObject::String"
                   },
                   "parameters": [
                     "ScoreBlack",
                     "=",
                     "\"= \" + GlobalVariableString(scoreBlack)"
-                  ],
-                  "subInstructions": []
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
@@ -3751,14 +3726,12 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "Create"
                   },
                   "parameters": [
@@ -3767,40 +3740,538 @@
                     "bubbleWhite.X()",
                     "bubbleWhite.Y()",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
                     "scoreWhite",
                     "+",
                     "1"
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "TextObject::String"
                   },
                   "parameters": [
                     "ScoreWhite",
                     "=",
-                    "\"= \" + GlobalVariableString(scoreWhite)"
-                  ],
-                  "subInstructions": []
+                    "\" = \" + GlobalVariableString(scoreWhite)"
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ]
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "LEVEL GAME",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Control Level de juego"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    ">=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    "<",
+                    "20"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Level",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    ">=",
+                    "20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    "<",
+                    "30"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Level",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    ">=",
+                    "30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    "<",
+                    "40"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Level",
+                "=",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    ">=",
+                    "40"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    "<",
+                    "50"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Level",
+                "=",
+                "4"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    ">=",
+                    "50"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    "<",
+                    "60"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Level",
+                "=",
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    ">=",
+                    "60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    "<",
+                    "70"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Level",
+                "=",
+                "6"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    ">=",
+                    "70"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    "<",
+                    "80"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Level",
+                "=",
+                "7"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    ">=",
+                    "80"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    "<",
+                    "90"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Level",
+                "=",
+                "8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    ">=",
+                    "90"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "SCORE",
+                    "<",
+                    "101"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Level",
+                "=",
+                "9"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "GAME STATE",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "LIFE_HEART",
+            "<=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "LIFE_HEART",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobalTxt"
+          },
+          "parameters": [
+            "GameState",
+            "=",
+            "\"gameOver\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobalTxt"
+          },
+          "parameters": [
+            "GameState",
+            "=",
+            "\"gameOver\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"GameOver\"",
+            "no"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -3808,9 +4279,14 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
+      "isLocked": false,
       "name": "",
+      "renderingType": "",
       "visibility": true,
       "cameras": [
         {
